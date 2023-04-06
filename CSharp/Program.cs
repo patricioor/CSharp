@@ -5,7 +5,7 @@ using Projeto_CSharp.Fundamentos;
 using Projeto_CSharp.EstruturasDeControle;
 using Projeto_CSharp.ClassesEMetodos;
 using Projeto_CSharp.Colecoes;
-using Projeto_CSharp.OO;
+using CSharp.OO;
 
 namespace Projeto_CSharp {
     class Program {
@@ -72,7 +72,7 @@ namespace Projeto_CSharp {
 
                 {"Herança - Orientação a Objetos", Heranca.Executar},
                 {"Construtor 'This' - Orientação a Objetos", ConstrutorThis.Executar},
-                //{"Encapsulamento - Orientação a Objetos", OO.Encapsulamento.Executar},
+                {"Encapsulamento - Orientação a Objetos", CSharp.OO.Encapsulamento.Executar},
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },

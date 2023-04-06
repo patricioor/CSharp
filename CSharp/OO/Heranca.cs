@@ -1,5 +1,4 @@
-namespace Projeto_CSharp.OO
-{
+namespace CSharp.OO {
     public class Heranca
     {
         public class Carro {
