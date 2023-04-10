@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-using Projeto_CSharp.Fundamentos;
+﻿using Projeto_CSharp.Fundamentos;
 using Projeto_CSharp.EstruturasDeControle;
 using Projeto_CSharp.ClassesEMetodos;
 using Projeto_CSharp.Colecoes;
@@ -59,20 +56,24 @@ namespace Projeto_CSharp {
 
                 
                 //Coleções
-                {"Array - Coleções", Projeto_CSharp.Colecoes.Array.Executar},
-                {"List - Coleções", Projeto_CSharp.Colecoes.List.Executar},
-                {"ArrayList - Coleções", Projeto_CSharp.Colecoes.ArrayList.Executar},
-                {"Set - Coleções", Projeto_CSharp.Colecoes.Set.Executar},
-                {"Queue - Coleções", Projeto_CSharp.Colecoes.Queue.Executar},
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"List - Coleções", List.Executar},
+                {"ArrayList - Coleções", ArrayList.Executar},
+                {"Set - Coleções", Set.Executar},
+                {"Queue - Coleções", Queue.Executar},
                 {"Igualdade - Coleções", Igualdade.Executar},
-                {"Stack - Coleções", Projeto_CSharp.Colecoes.Stack.Executar},
-                {"Dicionário - Coleções", Projeto_CSharp.Colecoes.Dictionary.Executar},
+                {"Stack - Coleções", Stack.Executar},
+                {"Dicionário - Coleções", Dictionary.Executar},
                 
                 //Orientação a Objetos
-
                 {"Herança - Orientação a Objetos", Heranca.Executar},
                 {"Construtor 'This' - Orientação a Objetos", ConstrutorThis.Executar},
                 {"Encapsulamento - Orientação a Objetos", CSharp.OO.Encapsulamento.Executar},
+                {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+                {"Abstract - Orientação a Objetos", Absctract.Executar},
+                {"Interface - Orientação a Objetos", Interface.Executar},
+                {"Sealed- Orientação a Objetos", Sealed.Executar},
+
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },
