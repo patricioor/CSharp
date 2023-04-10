@@ -3,6 +3,7 @@ using Projeto_CSharp.EstruturasDeControle;
 using Projeto_CSharp.ClassesEMetodos;
 using Projeto_CSharp.Colecoes;
 using CSharp.OO;
+using CSharp.MetodosEFuncoes;
 
 namespace Projeto_CSharp {
     class Program {
@@ -74,6 +75,10 @@ namespace Projeto_CSharp {
                 {"Interface - Orientação a Objetos", Interface.Executar},
                 {"Sealed- Orientação a Objetos", Sealed.Executar},
 
+                //Métodos e Funções
+                {"Lambda - Métodos e Funções", ExemploLambda.Executar},
+                {"Lambda Delegate - Métodos e Funções", LambdaDelegate.Executar},
+                {"Usando Delegate - Métodos e Funções", UsandoDelegate.Executar},
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },
