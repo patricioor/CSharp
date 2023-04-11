@@ -57,7 +57,6 @@ namespace CSharp.Excecoes
                 {
                     Console.WriteLine(ex.Message);
                 }
-
                 finally
                 {
                     Console.WriteLine("--Fim do Programa--");

@@ -5,6 +5,7 @@ using Projeto_CSharp.Colecoes;
 using CSharp.OO;
 using CSharp.MetodosEFuncoes;
 using CSharp.Excecoes;
+using CSharp.API;
 
 namespace Projeto_CSharp {
     class Program {
@@ -88,6 +89,13 @@ namespace Projeto_CSharp {
                 //Exceções
                 {"Primera Exceção - Exceções", PrimeiraExcecao.Executar},
                 {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+
+                //API
+                {"Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - Usando API", LendoArquivos.Executar},
+                {"Exemplo FileInfo - Usando API", ExemploFileInfo.Executar},
+                {"Diretórios - Usando API", Diretorios.Executar},
+                {"Exemplo DirectoryInfo - Usando API", ExemploDirectoryInfo.Executar},
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },
