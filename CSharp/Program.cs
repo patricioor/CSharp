@@ -77,8 +77,12 @@ namespace Projeto_CSharp {
 
                 //Métodos e Funções
                 {"Lambda - Métodos e Funções", ExemploLambda.Executar},
-                {"Lambda Delegate - Métodos e Funções", LambdaDelegate.Executar},
+                {"Lambda como Delegate - Métodos e Funções", LambdaDelegate.Executar},
                 {"Usando Delegate - Métodos e Funções", UsandoDelegate.Executar},
+                {"Delegate como Função Anônima - Métodos e Funções", DelegateFuncAnonima.Executar},
+                {"Delegates como Parâmetros - Métodos e Funções", DelegatesComoParametros.Executar},
+                {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
+
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },

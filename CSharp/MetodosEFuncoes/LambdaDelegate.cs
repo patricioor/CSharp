@@ -1,13 +1,14 @@
 ﻿namespace CSharp.MetodosEFuncoes
 {
+    delegate double Operacao(double x, double y); // pode ser criado dentro ou fora da classe
     internal class LambdaDelegate
     {
-        delegate double Operacao(double x, double y);
+        //delegate double Operacao(double x, double y);
         public static void Executar ()
         {
-            Operacao sum = (x,y) => x + y;
-            Operacao sub = (x,y) => x - y;
-            Operacao mult = (x,y) => x * y;
+            Operacao sum = (x, y) => x + y;
+            Operacao sub = (x, y) => x - y;
+            Operacao mult = (x, y) => x * y;
 
             Console.WriteLine(sum(3,3));
             Console.WriteLine(sub(10,7));

@@ -25,7 +25,6 @@ namespace Projeto_CSharp.ClassesEMetodos.ProjetoBiblioteca {
                 switch (opcao)
                 {
                     case 1:
-                    int qntLivrosEmprestadosUsuario = 0;
                         Console.WriteLine("Cadastrar Pessoa");
                         Console.Write("ID: ");
                         int.TryParse(Console.ReadLine(), out int idPessoa);
