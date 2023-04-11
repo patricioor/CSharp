@@ -4,6 +4,7 @@ using Projeto_CSharp.ClassesEMetodos;
 using Projeto_CSharp.Colecoes;
 using CSharp.OO;
 using CSharp.MetodosEFuncoes;
+using CSharp.Excecoes;
 
 namespace Projeto_CSharp {
     class Program {
@@ -83,6 +84,10 @@ namespace Projeto_CSharp {
                 {"Delegates como Parâmetros - Métodos e Funções", DelegatesComoParametros.Executar},
                 {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
 
+
+                //Exceções
+                {"Primera Exceção - Exceções", PrimeiraExcecao.Executar},
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },
