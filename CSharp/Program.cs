@@ -6,6 +6,7 @@ using CSharp.OO;
 using CSharp.MetodosEFuncoes;
 using CSharp.Excecoes;
 using CSharp.API;
+using CSharp.TopicosAvancados;
 
 namespace Projeto_CSharp {
     class Program {
@@ -96,6 +97,17 @@ namespace Projeto_CSharp {
                 {"Exemplo FileInfo - Usando API", ExemploFileInfo.Executar},
                 {"Diretórios - Usando API", Diretorios.Executar},
                 {"Exemplo DirectoryInfo - Usando API", ExemploDirectoryInfo.Executar},
+                {"Exemplo Path - Usando API", ExemploPath.Executar},
+                {"Exemplo DateTime - Usando API", ExemploDateTime.Executar},
+                {"Exemplo TimeSpan - Usando API", ExemploTimeSpan.Executar},
+
+                //Tópicos Avançados
+                {"Lenguage INtegrated Query #01 - Tópicos Avançados", LINQ1.Executar},
+                {"Lenguage INtegrated Query #02 - Tópicos Avançados", LINQ2.Executar},
+                {"Nullable - Tópicos Avançados", Nullables.Executar},
+                {"Dynamics - Tópicos Avançados", Dynamics.Executar},
+                {"Genéricos - Tópicos Avançados", Genericos.Executar},
+
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },
